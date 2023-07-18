@@ -5,7 +5,7 @@ Un outil web interactif basé sur le système de requête SPARQL pour l'aide à 
 
 ## Languages
 * [Français](https://csisc.github.io/MedCYN/fr.html)
-* [Anglais](https://csisc.github.io/MedCYN/en.html)
+* [English](https://csisc.github.io/MedCYN/en.html)
 
 ## Team
 * Houcemeddine Turki, Data Engineering and Semantics Research Unit and Faculty of Medicine of Sfax, University of Sfax, Tunisia
