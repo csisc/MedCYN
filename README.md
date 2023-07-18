@@ -15,7 +15,7 @@
 
 ## Team
 * Houcemeddine Turki, Data Engineering and Semantics Research Unit and Faculty of Medicine of Sfax, University of Sfax, Tunisia
-* Makram Koubaa, Faculty of Medicine of Sfax, University of Sfax
+* Makram Koubaa, Faculty of Medicine of Sfax, University of Sfax, Tunisia
 * Mohamed Ali Hadj Taieb, Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
-* Nejmeddine Hentati, Faculty of Medicine of Sfax, University of Sfax
+* Nejmeddine Hentati, Faculty of Medicine of Sfax, University of Sfax, Tunisia
 * Mohamed Ben Aouicha, Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
