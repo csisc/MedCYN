@@ -1,7 +1,9 @@
 # MedCYN
-An interactive web tool for clinical decision support based on Wikidata Query Service
+🇬🇧 An interactive and multilingual web tool for clinical decision support based on the SPARQL query service of Wikidata
 
-Un outil web interactif basé sur le système de requête SPARQL pour l'aide à la décision clinique
+Un outil web interactif et multilingue basé sur le système de requête SPARQL de Wikidata pour l'aide à la décision clinique
+
+
 
 ## Languages
 * [Français](https://csisc.github.io/MedCYN/fr.html)
