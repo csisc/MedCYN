@@ -41,6 +41,8 @@ if(dropdown.value == "gene"){iframe.src = gene}
 if(dropdown.value == "exa"){iframe.src = exa}
 if(dropdown.value == "drug"){iframe.src = drug}
 if(dropdown.value == "pub"){iframe.src = pub}
+if(dropdown.value == "risk"){iframe.src = risk}
+if(dropdown.value == "prev"){iframe.src = prev}
 
 }
 
