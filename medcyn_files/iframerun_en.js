@@ -18,6 +18,10 @@ drug = "https://query.wikidata.org/embed.html#SELECT%20%3FpropertyLabel%20%3Fthe
 
 pub = "https://query.wikidata.org/embed.html#SELECT%20%3FpublicationLabel%20%3Fdate%20%3FsourceLabel%20%3Fdoi%20WHERE%20%7B%0A%20%20VALUES%20%3Fdisease%20%7B"+input.replace(" ", "%20").replace(":", "%3A")+"%7D%0A%20%20%3Fpublication%20wdt%3AP921%20%3Fdisease.%0A%20%20%3Fpublication%20wdt%3AP577%20%3Fdate%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP1433%20%3Fsource%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP356%20%3Fdoi.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D%0AORDER%20BY%20DESC(%3Fdate)%0ALIMIT%20100"
 
+risk = "https://query.wikidata.org/embed.html#SELECT%20%3FdiseaseLabel%20%3FpropertyLabel%20%3FfactorLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Fdisease%20%7B"+input.replace(" ", "%20").replace(":", "%3A")+"%7D%0A%20%20VALUES%20%3Fprop%20%7Bwdt%3AP828%20wdt%3AP5642%7D%0A%20%20%3Fdisease%20%3Fprop%20%3Ffactor.%0A%20%20%3Fproperty%20wikibase%3AdirectClaim%20%3Fprop.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D"
+
+prev = "https://query.wikidata.org/embed.html#SELECT%20%3FdiseaseLabel%20%3FpropertyLabel%20%3FfactorLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Ffactor%20%7B"+input.replace(" ", "%20").replace(":", "%3A")+"%7D%0A%20%20VALUES%20%3Fprop%20%7Bwdt%3AP828%20wdt%3AP5642%7D%0A%20%20%3Fdisease%20%3Fprop%20%3Ffactor.%0A%20%20%3Fproperty%20wikibase%3AdirectClaim%20%3Fprop.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%7D%0A%20%20%7D"
+  
 //Refreshing iframe
 iframe = document.querySelector("iframe")
 iframe.remove();
