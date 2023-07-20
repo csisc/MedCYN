@@ -7,6 +7,8 @@
 
 🇪🇸 Una herramienta web interactiva y multilingüe basada en el sistema de consulta SPARQL de Wikidata para apoyo a la toma de decisiones clínicas
 
+أداة ويب تفاعلية ومتعددة اللغات تعتمد على نظام استعلام SPARQL الخاص بويكي بيانات لدعم القرار السريري
+
 **[Instructions](https://youtu.be/7sgdfdK80uw)**
 
 ## Languages
