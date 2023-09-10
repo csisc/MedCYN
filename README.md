@@ -24,3 +24,6 @@
 * [Mohamed Ali Hadj Taieb](https://scholar.google.ca/citations?user=smOf5DUAAAAJ&hl=fr), Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
 * [Nejmeddine Hentati](https://www.linkedin.com/in/nejmeddine-hentati-2a50826), Faculty of Medicine of Sfax, University of Sfax, Tunisia
 * [Mohamed Ben Aouicha](https://scholar.google.ca/citations?user=XPVUu-gAAAAJ&hl=fr), Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
+
+## Dependencies
+The repository bundles several third-party libraries (bootstrap, d3, jquery, popper) and snippets from Stack Overflow. We reuse them according to the [Fair Use](https://en.wikipedia.org/wiki/Fair_use) guidelines.
