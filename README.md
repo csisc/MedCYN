@@ -27,3 +27,6 @@
 
 ## Dependencies
 The repository bundles several third-party libraries (*bootstrap*, *d3*, *jquery*, *popper*) and snippets from [Stack Overflow](https://stackoverflow.com). We reuse them according to the [Fair Use](https://en.wikipedia.org/wiki/Fair_use) guidelines.
+
+## Acknowledgments
+Parts of the source code were retrieved from the [GitHub repository](https://github.com/WDscholia/scholia) of [Scholia](https://scholia.toolforge.org/), a web service hosted on Toolforge for generating bibliometric profiles based on Wikidata.
