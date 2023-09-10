@@ -26,4 +26,4 @@
 * [Mohamed Ben Aouicha](https://scholar.google.ca/citations?user=XPVUu-gAAAAJ&hl=fr), Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
 
 ## Dependencies
-The repository bundles several third-party libraries (*bootstrap*, *d3*, *jquery*, *popper*) and snippets from Stack Overflow. We reuse them according to the [Fair Use](https://en.wikipedia.org/wiki/Fair_use) guidelines.
+The repository bundles several third-party libraries (*bootstrap*, *d3*, *jquery*, *popper*) and snippets from [Stack Overflow](https://stackoverflow.com). We reuse them according to the [Fair Use](https://en.wikipedia.org/wiki/Fair_use) guidelines.
