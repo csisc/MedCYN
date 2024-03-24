@@ -21,6 +21,7 @@
 ## Team
 * [Houcemeddine Turki](https://scholar.google.ca/citations?user=u25grGjf85sC&hl=fr), Data Engineering and Semantics Research Unit and Faculty of Medicine of Sfax, University of Sfax, Tunisia
 * [Makram Koubaa](https://scholar.google.ca/citations?hl=fr&user=K-aVBOkAAAAJ), Faculty of Medicine of Sfax, University of Sfax, Tunisia
+* [Mohamed Frikha](https://scholar.google.ca/citations?hl=fr&user=M35RDxAAAAAJ), Faculty of Economic Sciences and Management of Sfax, University of Sfax, Tunisia
 * [Mohamed Ali Hadj Taieb](https://scholar.google.ca/citations?user=smOf5DUAAAAJ&hl=fr), Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
 * [Nejmeddine Hentati](https://www.linkedin.com/in/nejmeddine-hentati-2a50826), Faculty of Medicine of Sfax, University of Sfax, Tunisia
 * [Mohamed Ben Aouicha](https://scholar.google.ca/citations?user=XPVUu-gAAAAJ&hl=fr), Data Engineering and Semantics Research Unit, University of Sfax, Tunisia
