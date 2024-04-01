@@ -64,7 +64,7 @@ fetch('https://raw.githubusercontent.com/csisc/MedCYN/main/medcyn_files/i18n.jso
 const dropDownlg = document.getElementById('language') 
  dropDownlg.addEventListener('click', function(event) { 
  	document.getElementById('searchbutton').innerText = obj[event.target.value]["add"]
- 	document.getElementById('idfield').placeholder = obj[event.target.value]["addit"]
+ 	document.getElementById('idfield').placeholder = obj[event.target.value]["addid"]
  	document.getElementById('clear').innerText = obj[event.target.value]["clear"]
  	document.getElementById('h2_2').innerText = obj[event.target.value]["clinidec"]
  	document.getElementById('cp1').innerHTML = obj[event.target.value]["cp1"]
