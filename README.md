@@ -11,12 +11,14 @@
 
 **[Instructions](https://youtu.be/7sgdfdK80uw)**
 
+**[Use the tool](https://csisc.github.io/MedCYN/fr.html)**
+
 ## Languages
-* [Français](https://csisc.github.io/MedCYN/fr.html)
-* [English](https://csisc.github.io/MedCYN/en.html)
-* [Italiano](https://csisc.github.io/MedCYN/it.html)
-* [Español](https://csisc.github.io/MedCYN/es.html)
-* [العربية](https://csisc.github.io/MedCYN/ar.html)
+* Français
+* English
+* Italiano
+* Español
+* العربية
 
 ## Team
 * [Houcemeddine Turki](https://scholar.google.ca/citations?user=u25grGjf85sC&hl=fr), Data Engineering and Semantics Research Unit and Faculty of Medicine of Sfax, University of Sfax, Tunisia
