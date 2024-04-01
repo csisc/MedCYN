@@ -109,12 +109,7 @@
 <script type="text/javascript">
     
 el = document.querySelector(".idfield")
-const dropDownlg_1 = document.getElementById('language')
-function lg() {
-dropDownlg_1.addEventListener('click', function(event) { 
- 	var lg_1 = event.target.value}, false)
-}
-lg()
+
 
   $(document).ready(function () {
     $('#searchterm').autoComplete({
@@ -128,8 +123,8 @@ lg()
             data: {
               search: searchTerm,
               action: "wbsearchentities",
-              language: lg_1,
-              uselang: lg_1,
+              language: document.getElementById('language').value,
+              uselang: document.getElementById('language').value,
               format: "json",
               strictlanguage: true
             }
