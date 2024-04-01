@@ -109,7 +109,9 @@
 <script type="text/javascript">
     
 el = document.querySelector(".idfield")
-lg_1 = document.getElementById('language').value
+const dropDownlg = document.getElementById('language') 
+dropDownlg.addEventListener('click', function(event) { 
+ 	lg_1 = event.target.value})
 
   $(document).ready(function () {
     $('#searchterm').autoComplete({
