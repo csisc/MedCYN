@@ -18,7 +18,7 @@
           <option value="it">Italiano - Italian</option>
     </select>
 
-    <h2>Search</h2>
+    <h2 id="h2_1">Search</h2>
     
     <div class="input-group" bis_skin_checked="1">
 	    <input type="text" class="form-control" placeholder="Search for an item" id="searchterm">
@@ -33,20 +33,20 @@
 
 
 <div class="container" id="result" bis_skin_checked="1">
-<h2>Seek medical support</h2>
+<h2 id="h2_2">Seek medical support</h2>
 <input type="text" class="idfield" placeholder="Add Wikidata IDs separated by spaces" id="idfield">
 
 <select name="support" id="support">
-  <option value="drugint">Drug interactions</option>
-  <option value="diag">Disease diagnosis from symptoms</option>
-  <option value="gene">Suspected genes from symptoms</option>
-  <option value="exa">Medical examinations from symptoms</option>
-  <option value="drug">Drugs for a list of diseases</option>
-  <option value="pub">Recent scholarly publications on a list of diseases</option>
-  <option value="risk">Identification of the causes and risk factors of a list of diseases</option>
-  <option value="prev">Identification of the diseases that can be more susceptible to occur due to a list of pathologies</option>
+  <option value="drugint" id="drugint">Drug interactions</option>
+  <option value="diag" id="diag">Disease diagnosis from symptoms</option>
+  <option value="gene" id="gene">Suspected genes from symptoms</option>
+  <option value="exa" id="exa">Medical examinations from symptoms</option>
+  <option value="drug" id="drug">Drugs for a list of diseases</option>
+  <option value="pub" id="pub">Recent scholarly publications on a list of diseases</option>
+  <option value="risk" id="risk">Identification of the causes and risk factors of a list of diseases</option>
+  <option value="prev" id="prev">Identification of the diseases that can be more susceptible to occur due to a list of pathologies</option>
 </select>
-<br />
+
 <button type="button" id="runb">Run Me!</button>
 <button type="button" id="clear">New Query</button>
 <button type="button" id="del">Remove last item</button>
@@ -75,20 +75,20 @@
 
 <div class="container footer" bis_skin_checked="1">
     <hr>
-    Data from <a href="https://www.wikidata.org/">Wikidata</a>, 
-    a <a href="https://wikimediafoundation.org/">Wikimedia Foundation</a> service
+    <span id="cp1">Data from <a href="https://www.wikidata.org/">Wikidata</a>, 
+    a <a href="https://wikimediafoundation.org/">Wikimedia Foundation</a> service</span>
     |
-    Code from
-    <a href="https://github.com/csisc/MedCYN">GitHub repository</a>
+    <span id="cp2">Code from
+    <a href="https://github.com/csisc/MedCYN">GitHub repository</a></span>
     |
-    Parts of the source code were retrieved from the <a href="https://github.com/WDscholia/scholia">GitHub repository</a> of Scholia
+    <span id="cp3">Parts of the source code were retrieved from the <a href="https://github.com/WDscholia/scholia">GitHub repository</a> of Scholia</span>
     |
-    Hosted on   <a href="https://pages.github.com/">GitHub Pages</a>
+    <span id="cp4">Hosted on   <a href="https://pages.github.com/">GitHub Pages</a></span>
     |
-    License for content: CC0 for data, MIT for source
+    <span id="cp5">License for content: CC0 for data, MIT for source</span>
     |
-    Report technical problems at MedCYN's
-    <a href="https://github.com/csisc/MedCYN/issues">Issues</a> GitHub page.
+    <span id="cp6">Report technical problems at MedCYN's
+    <a href="https://github.com/csisc/MedCYN/issues">Issues</a> GitHub page.</span>
     <hr>
   </div>
 
@@ -109,7 +109,7 @@
 <script type="text/javascript">
     
 el = document.querySelector(".idfield")
-  
+lg_1 = document.getElementById('language').value
 
   $(document).ready(function () {
     $('#searchterm').autoComplete({
@@ -123,8 +123,8 @@ el = document.querySelector(".idfield")
             data: {
               search: searchTerm,
               action: "wbsearchentities",
-              language: "en",
-              uselang: "en",
+              language: lg_1,
+              uselang: lg_1,
               format: "json",
               strictlanguage: true
             }
