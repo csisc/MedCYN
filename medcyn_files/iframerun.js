@@ -51,9 +51,23 @@ if(dropdown.value == "prev"){iframe.src = prev}
 
 }
 
+//Clear the id list
+function idlist_clear(){
+  document.getElementById('idfield').value = ""
+}
+
+//Remove the last item in the id list
+function idlist_del(){
+  document.getElementById('idfield').value = document.getElementById('idfield').value.substring(0,document.getElementById('idfield').value.lastIndexOf(" "))
+}
+
 //Main Source
 button = document.querySelector("#runb")
 button.setAttribute("onclick", "iframe_gen()")
+button1 = document.querySelector("#clear")
+button1.setAttribute("onclick", "idlist_clear()")
+button2 = document.querySelector("#del")
+button2.setAttribute("onclick", "idlist_del()")
 
 //Changing the main language
 fetch('https://raw.githubusercontent.com/csisc/MedCYN/main/medcyn_files/i18n.json')
