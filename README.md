@@ -11,7 +11,7 @@
 
 **[Instructions](https://youtu.be/7sgdfdK80uw)**
 
-**[Use the tool](https://csisc.github.io/MedCYN/fr.html)**
+**[Use the tool](https://csisc.github.io/MedCYN/main.html)**
 
 ## Languages
 * Français
